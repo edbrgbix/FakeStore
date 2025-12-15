@@ -1,9 +1,17 @@
 # SPDX-FileCopyrightText: 2014 microG Project Team
-# SPDX-License-Identifier: CC0-1.0
+# SPDX-License-Identifier: CC0-1.0, *
+Exclude all
+adt$*
+asf$*
+apple$*
+mit$*
+rules
+!
+*
+*$goo.gl
+null*
+*$m4$*
+pay
+/-only
+!/.gitignore
 
-build/
-.idea/
-.gradle/
-user.gradle
-local.properties
-*.iml
